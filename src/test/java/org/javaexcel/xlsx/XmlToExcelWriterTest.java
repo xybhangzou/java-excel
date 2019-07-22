@@ -39,7 +39,7 @@ public class XmlToExcelWriterTest {
         long begTime = System.currentTimeMillis();
         try {
             ExcelWriter writer = ExcelWriterFactory.getWriter(ExcelType.XLSX);
-            writer.process(metadata, datas, "/Users/Robert/Desktop/QA_test/expense.xlsx");
+            writer.process(metadata, datas, "D:\\user.xlsx");
         } catch (Exception e) {
             e.printStackTrace();
         }

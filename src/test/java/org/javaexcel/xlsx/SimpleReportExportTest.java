@@ -34,7 +34,7 @@ public class SimpleReportExportTest {
         long begTime = System.currentTimeMillis();
         try {
             ExcelWriter writer = ExcelWriterFactory.getWriter(ExcelType.XLS);
-            writer.process(metadata, datas, "/Users/Robert/Desktop/QA_test/user.xls");
+            writer.process(metadata, datas, "D://user.xlsx");
         } catch (Exception e) {
             e.printStackTrace();
         }
